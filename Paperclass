@@ -1,0 +1,15 @@
+Class Paper{
+    }
+var options ={
+	isstatic :false,
+	restitution : 0.3,
+	friction : 0.5,
+	density: 1.2
+}
+
+function keypressed(){
+if(keycode=== UP_ARROW){
+Matter.Body.applyforce(paperObject.body,paperObject.body.postion, {x:85,y:-85});
+}
+
+}
